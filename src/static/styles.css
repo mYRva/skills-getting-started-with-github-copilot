@@ -171,6 +171,25 @@ footer {
   box-shadow: 0 1px 0 rgba(18,34,77,0.03);
 }
 
+/* Remove button next to participant chip */
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 4px;
+  margin-left: 6px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-participant:hover {
+  background: rgba(198,40,40,0.08);
+}
+
 .avatar {
   width: 28px;
   height: 28px;
